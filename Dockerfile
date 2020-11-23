@@ -12,6 +12,7 @@ RUN apk add autoconf \
             file \
             util-linux \
             nginx \
+            php \
             php-fpm 
             
 COPY ./init.sh /
